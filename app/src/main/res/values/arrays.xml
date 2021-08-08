@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---->
+    <string-array name="ban_times_names">
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>5 часов</item>
+        <item>12 часов</item>
+        <item>Сутки</item>
+        <item>Двое суток</item>
+        <item>Трое суток</item>
+        <item>5 дней</item>
+        <item>Неделя</item>
+        <item>Две недели</item>
+        <item>Месяц</item>
+        <item>Два месяца</item>
+        <item>Год</item>
+    </string-array>
+    <integer-array name="ban_times_values">
+        <item>300</item>
+        <item>600</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>18000</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>259200</item>
+        <item>432000</item>
+        <item>604800</item>
+        <item>604800</item>
+        <item>2592000</item>
+        <item>5270400</item>
+        <item>31536000</item>
+    </integer-array>
+    <!---->
+    <!---->
+    <string-array name="ban_times_names_moder">
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>6 часов</item>
+        <item>12 часов</item>
+    </string-array>
+    <integer-array name="ban_times_values_moder">
+        <item>300</item>
+        <item>600</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>21600</item>
+        <item>43200</item>
+    </integer-array>
+    <!---->
+    <string-array name="balance_count_monets">
+        <item>50 руб</item>
+        <item>100 руб</item>
+        <item>200 руб</item>
+        <item>300 руб</item>
+        <item>500 руб</item>
+        <item>1000 руб</item>
+        <item>5000 руб</item>
+        <item>10000 руб</item>
+    </string-array>
+    <integer-array name="balance_count">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </integer-array>
+
+
+
+    <integer-array name="colors">
+        <item>0xFFFF00FF</item><!-- Magenta-->
+        <item>0xFFF44336</item><!-- Red-->
+        <item>0xFFE91E63</item><!-- Pink-->
+        <item>0xFF9C27B0</item><!-- Purple-->
+        <item>0xFF673AB7</item><!-- Dark Purple-->
+        <item>0xFF3F51B5</item><!-- Indigo-->
+        <item>0xFF2196F3</item><!-- Blue-->
+        <item>0xFF03A9F4</item><!-- Light Blue-->
+        <item>0xFF00BCD4</item><!-- Cyan-->
+        <item>0xFF009688</item><!-- Teal-->
+        <item>0xFF4CAF50</item><!-- Green-->
+        <item>0xFF8BC34A</item><!-- Light Green-->
+        <item>0xFFCDDC39</item><!-- Lime-->
+        <item>0xFFFFEB3B</item><!-- Yellow-->
+        <item>0xFFFFC107</item><!-- Amber-->
+        <item>0xFFFF9800</item><!-- Orange-->
+        <item>0xFFFF5722</item><!-- Deep Orange-->
+        <item>0xFF795548</item><!-- Brown-->
+        <item>0xFF9E9E9E</item><!-- Grey-->
+        <item>0xFF607D8B</item><!-- Blue Grey-->
+        <item>0xFF000000</item><!-- Black-->
+ </integer-array>
+
+    <string-array name="sexlist">
+        <item>Неизвестно</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+</resources>

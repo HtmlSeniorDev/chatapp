@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--
+author Dmitriy Zhuravlev
+mail dimzhurwork@yandex.ru
+skype dimzhur2
+icq 397911363
+-->
+
+<shape android:shape="rectangle"  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid/>
+    <!--  android:color="@color/white"-->
+
+</shape>
+    

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.rockerhieu:emojicon:1.4.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c84a15213af4550999dfa3529a24df1/transformed/emojicon-1.4.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c84a15213af4550999dfa3529a24df1/transformed/emojicon-1.4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c84a15213af4550999dfa3529a24df1/transformed/emojicon-1.4.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c84a15213af4550999dfa3529a24df1/transformed/emojicon-1.4.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.rockerhieu/emojicon/1.4.2/5b12efbbc04bc339f62f92736430b28c52ee1610/emojicon-1.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.rockerhieu/emojicon/1.4.2/e6cfdc29f94b735ea880989fb0452b7e6920dd4c/emojicon-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

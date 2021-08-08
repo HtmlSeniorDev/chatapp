@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_chat_message"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_chat_message_element_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bt_transporent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/avs"
+            android:src="@drawable/wb"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <io.github.rockerhieu.emojicon.EmojiconTextView
+            android:background="@drawable/bt_transporent"
+            android:clickable="true"
+            android:id="@+id/tv_chat_message_element_message_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Последнее \uD83D\uDE10сообщение \uD83D\uDE10 было тут написано \uD83D\uDE10	 Последнее \uD83D\uDE10сообщение \uD83D\uDE10 было тут написано \uD83D\uDE10	Последнее \uD83D\uDE10сообщение \uD83D\uDE10 было тут написано \uD83D\uDE10	Последнее \uD83D\uDE10сообщение \uD83D\uDE10 было тут написано \uD83D\uDE10	"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            emojicon:emojiconAlignment="baseline"
+            android:layout_marginLeft="0dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_chat_message_element_attachments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"></LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

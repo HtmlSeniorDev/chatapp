@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="colorPrimary">#125688</color>
+ <color name="colorPrimaryDark">#125688</color>
+ <color name="textColorPrimary">#FFFFFF</color>
+ <color name="windowBackground">#FFFFFF</color>
+ <color name="navigationBarColor">#ffffff</color>
+ <color name="colorAccent">#03A9F4</color>
+ <!--   <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>-->
+    <color name="colorToMy">#2203A9F4</color>
+    <color name="colorSystem">#F5F5F5</color>
+    <color name="colorAccentPressed">#FF0091EA</color>
+    <color name="grey">#444444</color>
+    <color name="grey1">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#efefef</color>
+    <color name="light_light_gray">#f8f8f8</color>
+    <color name="red">#ffff0000</color>
+    <color name="grey2">#ffdddddd</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+</resources>

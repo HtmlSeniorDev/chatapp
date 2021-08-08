@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_chats_edit_category"
+        android:title="@string/edit_category"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_chats_add_category"
+        android:title="@string/add_category"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_chats_add_chat"
+        android:title="@string/add_chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_chats_delete_category"
+        android:title="@string/delete_category"
+        app:showAsAction="never" />
+</menu>

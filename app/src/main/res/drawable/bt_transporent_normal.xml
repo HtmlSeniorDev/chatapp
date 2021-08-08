@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--
+author Dmitriy Zhuravlev
+mail dimzhurwork@yandex.ru
+skype dimzhur2
+icq 397911363
+-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="0dp"
+    />
+    <gradient
+        android:angle="270"
+        android:startColor="#0077889C"
+        android:endColor="#0077889C"
+        android:type="linear"
+    />
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+    />
+    <size
+        android:width="30dp"
+        android:height="30dp"
+    />
+   
+</shape>
+    

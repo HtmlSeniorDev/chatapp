@@ -1,0 +1,14 @@
+rm -f /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/*
+rm -f /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/gdbserver
+rm -f /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/gdb.setup
+mkdir -p /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/objs/coder
+echo [x86_64] "Compile        ": "coder <= coder.c"
+rm -f /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/objs/coder/coder.o
+/Users/user/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -MMD -MP -MF /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/objs/coder/coder.o.d -target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes  --sysroot /Users/user/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument  -D_FORTIFY_SOURCE=2 -fPIC -O2 -DNDEBUG  -I/Users/user/Documents/folder/MyChatApp/app/src/main/jni   -DANDROID  -Wformat -Werror=format-security  -c  /Users/user/Documents/folder/MyChatApp/app/src/main/jni/coder.c -o /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/objs/coder/coder.o
+mkdir -p /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64
+echo [x86_64] "SharedLibrary  ": "libcoder.so"
+/Users/user/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -Wl,-soname,libcoder.so -shared /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/objs/coder/coder.o -lgcc -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -latomic -Wl,--exclude-libs,libatomic.a -target x86_64-none-linux-android21 -no-canonical-prefixes   -Wl,--build-id=sha1 -Wl,--no-rosegment  -stdlib=libstdc++ -Wl,--no-undefined -Wl,--fatal-warnings  -lc -lm -o /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libcoder.so
+mkdir -p /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64
+echo [x86_64] "Install        ": "libcoder.so => /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/libcoder.so"
+install -p /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libcoder.so /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/libcoder.so
+/Users/user/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip --strip-unneeded  /Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib/x86_64/libcoder.so

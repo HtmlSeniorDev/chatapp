@@ -1,0 +1,1 @@
+/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local/x86_64

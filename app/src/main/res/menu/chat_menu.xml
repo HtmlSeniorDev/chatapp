@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_chat_pm"
+        android:icon="@drawable/ic_chat_white_24dp"
+        android:title="@string/pm_messages"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_chat_people"
+        android:icon="@drawable/ic_people_white_24dp"
+        android:title="@string/people_in_chat"
+        app:showAsAction="always" />
+
+</menu>

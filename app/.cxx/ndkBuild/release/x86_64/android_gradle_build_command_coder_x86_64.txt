@@ -1,0 +1,14 @@
+Executable : /Users/user/Library/Android/sdk/ndk/22.1.7171670/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/user/Documents/folder/MyChatApp/app/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/user/Documents/folder/MyChatApp/app/src/main/jni/Application.mk
+APP_ABI=x86_64
+NDK_ALL_ABIS=x86_64
+NDK_DEBUG=0
+APP_PLATFORM=android-19
+NDK_OUT=/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib
+coder
+jvmArgs : 
+

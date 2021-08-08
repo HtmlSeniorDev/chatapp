@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3000"
+                android:gravity="center"
+                android:text="Регистрация аккаунта"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+         <!--   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3000"
+                android:gravity="center"
+                android:text="Для регистрации необходимо войти в свой Google аккаунт"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />-->
+
+        <!--    <EditText
+                android:id="@+id/ed_registration_email"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Логин"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:visibility="gone" />-->
+
+            <EditText
+                android:id="@+id/ed_registration_login"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:gravity="center"
+                android:hint="Логин"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="20"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/ed_registration_password"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:gravity="center"
+                android:hint="Пароль"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="20"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF" />
+
+         <!--   <EditText
+                android:id="@+id/ed_registration_re_password"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Повторите пароль"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLength="20"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:visibility="gone" />-->
+
+            <EditText
+                android:id="@+id/ed_registration_nic"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:gravity="center"
+                android:hint="Ник"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="20"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF" />
+
+         <!--   <EditText
+                android:id="@+id/ed_registration_name"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Имя"
+                android:inputType="text"
+                android:lines="1"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/ed_registration_fname"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_edit_text"
+                android:enabled="false"
+                android:gravity="center"
+                android:hint="Фамилия"
+                android:inputType="text"
+                android:lines="1"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:visibility="gone" />-->
+
+            <LinearLayout
+                android:id="@+id/color_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/color"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/bt_registration_color"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/bg_circle_bt" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_registration_registration"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Регистрация"
+                android:textColor="#FFFFFF" />
+
+          <!--  <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:visibility="visible" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

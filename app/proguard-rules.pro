@@ -1,0 +1,23 @@
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+-keep class com.android.support.** { *; }
+-keep class com.squareup.retrofit2.** { *; }
+-keep class com.thebluealliance.** { *; }
+-keep class io.github.rockerhieu.** { *; }
+-keep class com.squareup.** { *; }
+-keep class com.droidninja.** { *; }
+-keep class com.github.hotchemi.** { *; }
+-keep class ir.sohreco.androidfilechooser.** { *; }
+-keep class it.sephiroth.android.library.** { *; }
+-keep class de.hdodenhof.** { *; }
+-keep class com.google.android.gms.** { *; }
+-keep class com.facebook.** { *; }
+-keep class com.squareup.picasso.** { *; }
+-keep class olio.** { *; }
+-keep class com.facebook.cache.common.** { *; }

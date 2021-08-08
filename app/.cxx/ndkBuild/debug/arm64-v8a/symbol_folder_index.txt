@@ -1,0 +1,1 @@
+/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a

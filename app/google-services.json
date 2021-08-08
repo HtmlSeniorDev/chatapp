@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921898753307",
+    "project_id": "airchat-452f2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921898753307:android:803bb98703c20308",
+        "android_client_info": {
+          "package_name": "ru.readme.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921898753307-24t2guaah2ss8a7geu4iqhbjetdaapla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.readme.chatapp",
+            "certificate_hash": "17fa1a81b420bded2025940f4759f7454aee37d7"
+          }
+        },
+        {
+          "client_id": "921898753307-tps606mgb22jh3vka71kgtb55hi617hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgavOj7aqWtY9GMA-NlCcnD3T6yG4nKiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

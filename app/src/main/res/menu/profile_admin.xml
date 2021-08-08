@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_profile_messages"
+        android:icon="@drawable/ic_chat_white_24dp"
+        android:title="@string/message"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_profile_gift"
+        android:icon="@drawable/ic_card_giftcard_white_24dp"
+        android:title="@string/send_gift"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_profile_zags"
+        android:title="@string/to_zags"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_profile_add_balance"
+        android:title="@string/add_friend_balance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_profile_add_money"
+        android:title="Добавить баланс"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_profile_edit"
+        android:icon="@drawable/ic_edit_white_24dp"
+        android:title="@string/edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_profile_device_ban"
+        android:title="@string/device_ban_user"
+        app:showAsAction="never" />
+
+</menu>

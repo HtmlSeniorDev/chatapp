@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chats"
+            android:icon="@drawable/ic_forum_grey_700_24dp"
+            android:title="@string/chats" />
+        <item
+            app:actionLayout="@layout/drawer_messages_item"
+            android:id="@+id/nav_pms"
+            android:icon="@drawable/ic_chat_grey_700_24dp"
+            android:title="@string/pm_messages" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_grey_700_24dp"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_portrait_grey_700_24dp"
+            android:title="@string/my_photos" />
+
+
+
+    </group>
+    <item android:title="@string/chat_portal">
+        <menu>
+            <item
+                android:id="@+id/nav_set_avatar"
+                android:icon="@drawable/ic_portrait_grey_700_24dp"
+                android:title="@string/avatars" />
+            <item
+                android:id="@+id/nav_virt_zags"
+                android:icon="@drawable/ic_people_outline_grey_700_24dp"
+                android:title="@string/virt_zags" />
+
+            <item
+                android:id="@+id/nav_virt_balance"
+                android:icon="@drawable/ic_account_balance_wallet_grey_700_24dp"
+                android:title="@string/balance" />
+        </menu>
+    </item>
+    <item android:title="@string/admins">
+        <menu>
+            <item
+                android:id="@+id/nav_banned"
+                android:icon="@drawable/ic_block_grey_700_24dp"
+                android:title="@string/banned" />
+            <item
+                android:id="@+id/nav_invisibles"
+                android:icon="@drawable/ic_visibility_off_grey_700_24dp"
+                android:title="@string/invisbles" />
+        </menu>
+    </item>
+
+    <item android:title="Ещё">
+        <menu>
+            <item
+                android:icon="@drawable/alert"
+                android:id="@+id/nav_rules"
+                android:title="@string/rules" />
+            <item
+                android:icon="@drawable/ic_settings_grey_700_24dp"
+                android:id="@+id/nav_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_exit_to_app_grey_700_24dp"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>
