@@ -19,7 +19,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class Network {
 
-    public final static String LINK = "http://82.146.46.204:8080/";
+    public final static String LINK = "http://82.202.170.182:8080/";
     private static ChatNetworkInterface chatNetworkInterface;
     public static String avatarLink(String id) {
         return LINK + "avatars/get/" + id + ".png";

@@ -16,7 +16,7 @@
     "variantName": "release",
     "objFolder": "/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/obj/local",
     "soFolder": "/Users/user/Documents/folder/MyChatApp/app/build/intermediates/ndkBuild/release/lib",
-    "isDebuggableEnabled": false,
+    "isDebuggableEnabled": true,
     "validAbiList": [
       "X86"
     ],

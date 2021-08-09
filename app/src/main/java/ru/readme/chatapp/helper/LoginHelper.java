@@ -59,6 +59,7 @@ public class LoginHelper {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
                 LoginResponse resp = BaseResponse.decode(null, response.body(),LoginResponse.class);
+                System.out.println("response" + resp);
                 if (resp != null && resp.getStatus().equals(Status.STATUS_LOGIN_BAN)) {
                     if (listener != null) {
                         listener.onLogin(false,false,resp.getStatus());
