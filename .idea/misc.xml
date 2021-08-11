@@ -4,10 +4,67 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/drawable/bt_transporent.xml" value="0.1984375" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.1984375" />
+        <entry key="app/src/main/res/drawable/tile_bg.xml" value="0.18703703703703703" />
+        <entry key="app/src/main/res/layout/admins.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/attachment_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/attachment_file.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/attachment_image_double.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/attachment_image_single.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/attachment_image_triple.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/avatar_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/avatars.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/bannedevice_d.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/base_layout.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/layout/base_main_layout.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/layout/category_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/change_password_dialog.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chat.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/layout/chat_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chat_message_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chat_message_pm_element_1.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chat_message_pm_element_2.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chat_pm_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/chats.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/layout/create_category_dialog.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/create_chat_dialog.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/drawer_activity.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/layout/drawer_messages_item.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/layout/edit_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/find_user_dialog.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/folder_element.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/friends.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/gift_ask.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.2917676767024321" />
+        <entry key="app/src/main/res/layout/menu_dot.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/moders.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/notice_dialog.xml" value="0.16875" />
+        <entry key="app/src/main/res/layout/photo_element.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/profile.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/profile_info_element.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/registration.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/select_avatar_dialog.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/select_avatars.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/settings_fragment.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/user_element.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/user_element_short.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/user_gifts.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/users_dialog.xml" value="0.30966396866354146" />
+        <entry key="app/src/main/res/layout/zags_fragment.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/menu/avatars.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/menu/chat.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/menu/chat_admin.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/menu/chat_menu.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/menu/chat_moder.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/menu/chats_admin.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/menu/drawer.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/drawer_admin.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/menu/drawer_moder.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/menu/edit_profile.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/menu/photos.xml" value="0.22135416666666666" />
+        <entry key="app/src/main/res/menu/profile.xml" value="0.22135416666666666" />
       </map>
     </option>
   </component>

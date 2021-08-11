@@ -6,7 +6,8 @@
         <item
             android:id="@+id/nav_chats"
             android:icon="@drawable/ic_forum_grey_700_24dp"
-            android:title="@string/chats" />
+            android:title="@string/chats"
+            />
         <item
             app:actionLayout="@layout/drawer_messages_item"
             android:id="@+id/nav_pms"
@@ -35,11 +36,6 @@
                 android:id="@+id/nav_virt_zags"
                 android:icon="@drawable/ic_people_outline_grey_700_24dp"
                 android:title="@string/virt_zags" />
-
-            <item
-                android:id="@+id/nav_virt_balance"
-                android:icon="@drawable/ic_account_balance_wallet_grey_700_24dp"
-                android:title="@string/balance" />
         </menu>
     </item>
 

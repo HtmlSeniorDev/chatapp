@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fon">
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/chat1">
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -202,18 +202,17 @@
                 android:textColor="#FFFFFF"
                 android:background="@drawable/rounded_button" />
 
-                <EditText
-                    android:id="@+id/ed_edit_profile_user_about"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/rounded_edit_text"
-                    android:hint="О себе"
-                    android:layout_margin="6dp"
-                    android:textColor="#ffffff"
-                    android:textColorHint="#FFFFFF"
-                    android:gravity="center"
-                    android:inputType="text" />
-
+            <EditText
+                android:id="@+id/ed_edit_profile_user_about"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/rounded_edit_text"
+                android:gravity="center"
+                android:hint="О себе"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF" />
 
 
         </LinearLayout>

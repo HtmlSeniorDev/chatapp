@@ -3,68 +3,66 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:background="@drawable/fon"
+    android:background="@drawable/chat1"
     android:orientation="vertical"
     android:layout_height="match_parent"
 
     >
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3000"
+        android:gravity="center"
+        android:text="Авторизация"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:visibility="visible" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Добро пожаловать"
-            android:textColor="#FFFFFF"
-            android:gravity="center"
-            android:textSize="45sp"
-            android:background="#3000"/>
+    <EditText
+        android:id="@+id/ed_login_login"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="center"
+        android:hint="Логин"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:textColorHint="#B0F1EB" />
 
-            <EditText
-                android:id="@+id/ed_login_login"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:background="@drawable/rounded_edit_text"
-                android:hint="Логин"
-                android:layout_margin="10dp"
-                android:inputType="text"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
-                android:gravity="center"
-               />
+    <EditText
+        android:id="@+id/ed_login_password"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="center"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:text="123456789"
+        android:textColor="#FFFF"
+        android:textColorHint="#B0F1EB" />
 
-            <EditText
-                android:id="@+id/ed_login_password"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:background="@drawable/rounded_edit_text"
-                android:hint="Пароль"
-                android:text="123456789"
-                android:textColor="#FFFFFF"
-                android:layout_margin="10dp"
-                android:inputType="textPassword"
-                android:textColorHint="#ffffff"
-                android:gravity="center"/>
+    <Button
+        android:id="@+id/bt_login_login"
+        android:background="@drawable/rounded_button"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:text="Войти"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
 
-        <Button
-            android:id="@+id/bt_login_login"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:layout_margin="10dp"
-            android:text="Войти"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/rounded_button"
-          />
-
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:layout_margin="10dp"
-            android:text="Регистрация"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/rounded_button"
-            android:id="@+id/bt_login_do_registr"
-           />
+    <Button
+        android:id="@+id/bt_login_do_registr"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="Регистрация"
+        android:textColor="#FFFFFF" />
 
 
 

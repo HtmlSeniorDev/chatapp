@@ -84,13 +84,13 @@ public class MainActivity extends AppCompatActivity implements MainActivityHelpe
                         profieLoad = true;
                         helper.loadProfile();
                     }
-                    handler.sendEmptyMessageDelayed(1, 10000);
+                    handler.sendEmptyMessageDelayed(1, 15000);
                 }
             } else if (message.what == 4) {//проверка состояния сести каждые 2.5 секунд
                 if (MainActivity.this != null) {
                     checkNetwork();
                     if (network) {
-                        handler.sendEmptyMessageDelayed(4, 5000);
+                        handler.sendEmptyMessageDelayed(4, 7000);
                     }
                 }
 

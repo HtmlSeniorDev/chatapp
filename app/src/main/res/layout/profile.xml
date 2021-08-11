@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fon">
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/chat1">
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -59,24 +59,6 @@
             android:gravity="center_vertical"
             android:background="#6000">
 
-            <LinearLayout
-                android:id="@+id/ll_profile_photos"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="8dp">
-
-                <Button
-                    android:id="@+id/open_all_photo"
-                    android:layout_width="match_parent"
-                    android:layout_height="36dp"
-                    android:text="@string/photos"
-                    android:textColor="@color/white"
-                    android:background="@drawable/rounded_button"/>
-            </LinearLayout>
-
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rv_profile_photos"
                 android:layout_width="match_parent"
@@ -93,6 +75,24 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:paddingTop="16dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_profile_photos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="8dp"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="8dp">
+
+                <Button
+                    android:id="@+id/open_all_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="@string/photos"
+                    android:textColor="@color/white" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/tv_profile_no_photos"

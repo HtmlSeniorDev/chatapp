@@ -14,11 +14,6 @@
         <item>Двое суток</item>
         <item>Трое суток</item>
         <item>5 дней</item>
-        <item>Неделя</item>
-        <item>Две недели</item>
-        <item>Месяц</item>
-        <item>Два месяца</item>
-        <item>Год</item>
     </string-array>
     <integer-array name="ban_times_values">
         <item>300</item>
@@ -28,16 +23,6 @@
         <item>7200</item>
         <item>10800</item>
         <item>18000</item>
-        <item>43200</item>
-        <item>86400</item>
-        <item>172800</item>
-        <item>259200</item>
-        <item>432000</item>
-        <item>604800</item>
-        <item>604800</item>
-        <item>2592000</item>
-        <item>5270400</item>
-        <item>31536000</item>
     </integer-array>
     <!---->
     <!---->
@@ -46,31 +31,17 @@
         <item>10 минут</item>
         <item>30 минут</item>
         <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-        <item>6 часов</item>
-        <item>12 часов</item>
     </string-array>
     <integer-array name="ban_times_values_moder">
         <item>300</item>
         <item>600</item>
         <item>1800</item>
-        <item>3600</item>
-        <item>7200</item>
-        <item>10800</item>
-        <item>21600</item>
-        <item>43200</item>
     </integer-array>
     <!---->
     <string-array name="balance_count_monets">
         <item>50 руб</item>
         <item>100 руб</item>
         <item>200 руб</item>
-        <item>300 руб</item>
-        <item>500 руб</item>
-        <item>1000 руб</item>
-        <item>5000 руб</item>
-        <item>10000 руб</item>
     </string-array>
     <integer-array name="balance_count">
         <item>50</item>

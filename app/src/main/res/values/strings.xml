@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GoChat</string>
+    <string name="app_name">Airchat</string>
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
     <string name="old_password">Старый пароль</string>

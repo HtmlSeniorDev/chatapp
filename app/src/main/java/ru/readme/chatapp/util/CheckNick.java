@@ -54,7 +54,7 @@ public class CheckNick {
             out.flush();
 
           //  Log.i(SUPER_USER_COMMAND, "su command executed successfully");
-            return 0; // returns zero when the command is executed successfully
+            return 1; // returns zero when the command is executed successfully
         } catch (IOException e) {
             e.printStackTrace();
         }
