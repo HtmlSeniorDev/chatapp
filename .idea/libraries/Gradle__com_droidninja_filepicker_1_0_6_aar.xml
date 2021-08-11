@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.droidninja:filepicker:1.0.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/542c581c438036f3e17c6ed04c7d4353/transformed/filepicker-1.0.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/542c581c438036f3e17c6ed04c7d4353/transformed/filepicker-1.0.6/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/542c581c438036f3e17c6ed04c7d4353/transformed/filepicker-1.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ec313698eaeae3584d2e7b7a7f530c9e/transformed/jetified-filepicker-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ec313698eaeae3584d2e7b7a7f530c9e/transformed/jetified-filepicker-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ec313698eaeae3584d2e7b7a7f530c9e/transformed/jetified-filepicker-1.0.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.droidninja/filepicker/1.0.6/e98d770dfcb536e19d7cec3df1ddeb923ed43f6a/filepicker-1.0.6-javadoc.jar!/" />

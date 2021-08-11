@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: ir.sohreco.androidfilechooser:android-file-chooser:1.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5057020e2a63187ad55f6311481b099/transformed/android-file-chooser-1.1.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5057020e2a63187ad55f6311481b099/transformed/android-file-chooser-1.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5057020e2a63187ad55f6311481b099/transformed/android-file-chooser-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/70f08cddc899e6d14c908e72e50e13ff/transformed/jetified-android-file-chooser-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/70f08cddc899e6d14c908e72e50e13ff/transformed/jetified-android-file-chooser-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/70f08cddc899e6d14c908e72e50e13ff/transformed/jetified-android-file-chooser-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ir.sohreco.androidfilechooser/android-file-chooser/1.1.0/cba02f274b6573bc242e93b342b2c4090cc3a9a2/android-file-chooser-1.1.0-javadoc.jar!/" />

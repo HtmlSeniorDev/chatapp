@@ -1,8 +1,8 @@
 package ru.readme.chatapp.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
 import ru.readme.chatapp.R;
 import ru.readme.chatapp.fragment.BannedFragment;

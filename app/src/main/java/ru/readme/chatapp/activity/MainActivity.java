@@ -1,5 +1,6 @@
 package ru.readme.chatapp.activity;
 
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -15,18 +16,24 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
 import android.os.Vibrator;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.navigation.NavigationView;
+import androidx.fragment.app.FragmentManager;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
 import java.util.ArrayList;
 import java.util.List;
 import ru.readme.chatapp.R;
@@ -48,6 +55,7 @@ import ru.readme.chatapp.helper.MainActivityHelper;
 public class MainActivity extends AppCompatActivity implements MainActivityHelper.OnMainHelperActionListener {
     protected PowerManager.WakeLock mWakeLock;
     public final static String TAG_CHATS = "chats";
+    private AdView mAdView;
     public final static String TAG_CHAT = "chat";
     public final static String TAG_PROFILE = "profile";
     public final static String TAG_EDIT_PROFILE = "editprofile";
@@ -105,6 +113,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityHelpe
     private UserResponse user;
     private int lastMessages = 0;
     private boolean nShow = false;
+
+    @SuppressLint("InvalidWakeLockTag")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,11 +125,18 @@ public class MainActivity extends AppCompatActivity implements MainActivityHelpe
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         settingsHelper = new SettingsHelper(this);
         setContentView(R.layout.drawer_activity);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
+            }
+        });
+
       if(settingsHelper.getSL() == true) {
          final PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
          this.mWakeLock = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "My Tag");
          this.mWakeLock.acquire();
       }
+
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         nvNavigation = (NavigationView) findViewById(R.id.nav_view);

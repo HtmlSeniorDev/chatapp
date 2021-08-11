@@ -2,8 +2,8 @@ package ru.readme.chatapp.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuItem;
 import ru.readme.chatapp.R;
 import ru.readme.chatapp.fragment.RegistrationFragment;

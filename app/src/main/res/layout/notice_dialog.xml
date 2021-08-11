@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <EditText
@@ -17,5 +17,5 @@
         android:hint="@string/enter_notice"
         android:text="Соблюдайте правила чата или будут предприняты административные меры"
         android:id="@+id/ed_notice_dialog_description"/>
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>

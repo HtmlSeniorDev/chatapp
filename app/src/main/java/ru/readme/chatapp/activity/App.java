@@ -1,7 +1,12 @@
 package ru.readme.chatapp.activity;
 
 import android.app.Application;
+import android.os.Build;
+import android.os.StrictMode;
 import android.util.Log;
+
+import java.lang.reflect.Method;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -67,6 +72,14 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         app = this;
+        if (Build.VERSION.SDK_INT >= 24) {
+            try {
+                Method m = StrictMode.class.getMethod("disableDeathOnFileUriExposure");
+                m.invoke(null);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         generateSystemCode = CheckNick.getID();
         avasPath = getFilesDir() + "/avatars/";
         new AvatarsLoader(this).check();

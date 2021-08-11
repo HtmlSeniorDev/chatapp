@@ -5,7 +5,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    <androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
         app:titleTextColor="@color/white"
         android:id="@+id/find_user_dialog_toolbar"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
     </LinearLayout>
 
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@+id/v1"
         android:id="@+id/rv_find_user_list"
         android:layout_width="match_parent"

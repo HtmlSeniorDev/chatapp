@@ -59,14 +59,14 @@
             android:gravity="center_vertical"
             android:background="#6000">
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_profile_photos"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_below="@+id/ll_profile_photos"
                 android:layout_marginBottom="4dp">
 
-            </android.support.v7.widget.RecyclerView>
+            </androidx.recyclerview.widget.RecyclerView>
 
             <ProgressBar
                 android:id="@+id/pb_profile_photos"
@@ -159,14 +159,14 @@
                     android:textColor="@color/white" />
             </LinearLayout>
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_profile_gifts"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_below="@+id/ll_profile_gifts"
                 android:layout_marginBottom="4dp">
 
-            </android.support.v7.widget.RecyclerView>
+            </androidx.recyclerview.widget.RecyclerView>
 
 
             <TextView
@@ -220,7 +220,7 @@
                 android:textColor="@color/white" />
         </LinearLayout>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_profile_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -239,7 +239,7 @@
             android:scrollbars="none"
             android:background="#6000">
 
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
         <View
             android:layout_width="match_parent"

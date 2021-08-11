@@ -1,8 +1,9 @@
 package ru.readme.chatapp.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.Uri;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +35,7 @@ public class AddAttachmentsAdapter extends RecyclerView.Adapter<AddAttachmentsAd
     }
 
     @Override
-    public void onBindViewHolder(AttachmentHolder holder, final int position) {
+    public void onBindViewHolder(AttachmentHolder holder, @SuppressLint("RecyclerView") final int position) {
         final AttachmentResponse ar = elements.get(position);
         File f = new File(ar.getFileName());
         if (f.getName().indexOf(".png") > 0 || f.getName().indexOf(".jpeg") > 0) {

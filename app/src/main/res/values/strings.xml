@@ -325,4 +325,6 @@
     <string name="unban__device_ask">Разблокировать устройство пользователя?</string>
     <string name="unban_device_done">Устройство разблокировано</string>
     <string name="unban_device_error">Не получилось разблокировать устройство</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3142453396334347/9773137689</string>
+
 </resources>
