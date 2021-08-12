@@ -8,15 +8,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3142453396334347/9773137689">
-    </com.google.android.gms.ads.AdView>
     <include
         layout="@layout/base_main_layout"
         android:layout_width="match_parent"
@@ -27,9 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        android:background="#31C5B7"
-        />
+        android:background="@drawable/nav_back"
+        android:fitsSystemWindows="true" />
    <!-- app:headerLayout="@layout/nav_header_main"-->
 
 

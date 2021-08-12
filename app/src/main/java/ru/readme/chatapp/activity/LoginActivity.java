@@ -3,14 +3,12 @@ package ru.readme.chatapp.activity;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.ads.AdView;
 
 import ru.readme.chatapp.R;
 import ru.readme.chatapp.dialog.InfoDialog;
 import ru.readme.chatapp.fragment.LoginFragment;
 
 public class LoginActivity extends AppCompatActivity {
-    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
